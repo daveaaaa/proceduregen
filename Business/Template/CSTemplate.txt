@@ -1,0 +1,13 @@
+﻿[Serializable]
+public class %classname% {
+	
+%privatefields%
+
+%publicfields%
+
+	public %classname% (System.Data.DataRow drReq) {
+		
+%constructorfields%
+
+	}
+}

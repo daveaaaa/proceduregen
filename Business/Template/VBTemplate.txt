@@ -1,0 +1,11 @@
+﻿<Serializable>
+public class %classname% {
+	
+	%privatefields%
+
+	%publicfields%
+
+	public sub new(byval drReq as System.Data.DataRow)  
+		%constructorfields%
+	end sub
+}
