@@ -50,6 +50,7 @@
     <Compile Include="DBA\Structure\SPParam_Double.cs" />
     <Compile Include="DBA\Structure\SPParam_Decimal.cs" />
     <Compile Include="DBA\Structure\SPParam_Int.cs" />
+    <Compile Include="DBA\Structure\SPParam_XML.cs" />
     <Compile Include="DBA\Structure\SPParam_String.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

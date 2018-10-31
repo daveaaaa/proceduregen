@@ -158,6 +158,10 @@ namespace Business
                         case "money":
                             spParams.Add(new Data.DBA.Structure.SPParam_Money(param.ParameterName, param.IsOutput));
                             break;
+
+                        case "XML":
+                            spParams.Add(new Data.DBA.Structure.SPParam_XML(param.ParameterName, param.IsOutput));
+                            break;
                     }
                 }
             }
