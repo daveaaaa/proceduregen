@@ -131,10 +131,10 @@ namespace Business
                             spParams.Add(new Data.DBA.Structure.SPParam_Decimal(param.ParameterName, param.Precision, param.Length, param.IsOutput));
                             break;
                         case "double":
-                            spParams.Add(new Data.DBA.Structure.SPParam_Decimal(param.ParameterName, param.Precision, param.Length, param.IsOutput));
+                            spParams.Add(new Data.DBA.Structure.SPParam_Double(param.ParameterName,  param.IsOutput));
                             break;
                         case "float":
-                            spParams.Add(new Data.DBA.Structure.SPParam_Decimal(param.ParameterName, param.Precision, param.Length, param.IsOutput));
+                            spParams.Add(new Data.DBA.Structure.SPParam_Double(param.ParameterName,  param.IsOutput));
                             break;
 
                         case "date":
@@ -153,6 +153,10 @@ namespace Business
 
                         case "bit":
                             spParams.Add(new Data.DBA.Structure.SPParam_Bit(param.ParameterName, param.IsOutput));
+                            break;
+
+                        case "money":
+                            spParams.Add(new Data.DBA.Structure.SPParam_Money(param.ParameterName, param.IsOutput));
                             break;
                     }
                 }

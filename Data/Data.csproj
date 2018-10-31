@@ -46,6 +46,8 @@
     <Compile Include="DBA\Structure\IStructure.cs" />
     <Compile Include="DBA\Structure\SPParam_Datetime.cs" />
     <Compile Include="DBA\Structure\SPParam_Bit.cs" />
+    <Compile Include="DBA\Structure\SPParam_Money.cs" />
+    <Compile Include="DBA\Structure\SPParam_Double.cs" />
     <Compile Include="DBA\Structure\SPParam_Decimal.cs" />
     <Compile Include="DBA\Structure\SPParam_Int.cs" />
     <Compile Include="DBA\Structure\SPParam_String.cs" />
